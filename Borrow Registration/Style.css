@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body, html {
+	color: #373C40;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+	
+	margin: 10px;
+ 
+
+    
+}
+
+body {
+	font-size: 70%;
+    width: 40%;
+    height: 80%;
+
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+}
+
+label {
+	padding: 7px 0 7px 0;
+	font-weight: 500;
+	font-size: 10pt;
+    
+}
+
+h1 {
+	font-weight: 200;
+	color: #888888;
+	font-size: 17pt;
+	text-align: center;
+}
+
+form.register {
+	margin: 20px auto 0px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	border-radius: 20px;
+    background-image: url(./MicrosoftTeams-image2.png);
+    margin-left: 5px;
+}
+
+.form-group {
+	font-size: 8pt;
+	margin: 0;
+	color: gray;
+	padding: 7px 0 7px 0;
+	font-weight: 500;
+	font-size: 10pt;
+}
+
+/* text color */
+form.register legend {
+    color: #DD0127;
+    padding:2px;
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+/* boxes */
+form.register input 
+{
+	border: 1px solid #E1E1E1;
+}
+
+form.register input[type=radio] {
+	margin-left: 7px;
+}
+
+form.register select {
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+
+form.register select.date {
+    width: 40px;
+}
+
+input:focus, select:focus {
+    background-color: #efffe0;
+}
+
+div.agreement{
+    margin-left:15px;
+}
+div.agreement label{
+    text-align:left;
+    margin-top:3px;
+}
+
+#registerButton {
+    background: #DD0127;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    float:left;
+    font-size:18px;
+    margin:10px;
+}
+
+#updatedProfile {
+	display: none;
+	margin: 20px auto 0px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	border-radius: 20px;
+    background-image: url(./MicrosoftTeams-image3.png);
+}
+
+#updatedProfile h2 {
+	color: #abda0f;
+    padding:2px;
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+
+#updatedProfile h3 {
+	color: #abda0f;
+    padding:2px;
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 12px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+.box
+{
+    margin-left: 100px;
+}
+
+.box1
+{
+    margin-left: 49px;
+}
+
+.box2
+{
+    margin-left: 74px;
+}
+
+.box3
+{
+    margin-left: 23px;
+}
+
+.box4
+{
+    margin-left: 64px;
+}
+
+.box5
+{
+    margin-left: 65px;
+}
+
+.box6
+{
+    margin-left: 38px;
+}
+
+.box7
+{
+    margin-left: 83px;
+}
+
+.box8
+{
+    margin-left: 110.5px;
+}
+
+.box9
+{
+    margin-left: 95px;
+}
