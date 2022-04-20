@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
 body {
-    background-image: url(resources/bg_official.png);
+    /* background-image: url(resources/bg_official.png); */
+    background-image: linear-gradient(to right, #5D0200 8%, #030204 20%, #260100 41%, #D11016 76%);
     width: 100%;
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 
 #iuser_container {
@@ -15,8 +22,6 @@ body {
 #iusername {
     color: #231F20;
     font-weight: bold;
-    /* background-color: #FEFEFE; */
-    /* padding-left: 1px; */
 }
 
 #iuser_id {
@@ -26,96 +31,103 @@ body {
 }
 
 #notification_img {
-    width: 5%;
-    height: 5%;
+    width: 4%;
+    height: 3%;
     position: absolute;
-    top: 25px;
+    top: 4px;
     right: 130px;
 }
 
 .button_container {
-    top: 18px;
+    top: 1px;
     right: 10px;
     position: absolute;
 }
 
 .logout_button {
-    border: none;
-    color: #DD0127;
-    padding: 16px 32px;
-    text-align: center;
+    background: #B80402;
+    background-image: -webkit-linear-gradient(top, #B80402, #5D0200);
+    background-image: -moz-linear-gradient(top, #B80402, #5D0200);
+    background-image: -ms-linear-gradient(top, #B80402, #5D0200);
+    background-image: -o-linear-gradient(top, #B80402, #5D0200);
+    background-image: -webkit-gradient(to bottom, #B80402, #5D0200);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: small;
+    padding: 5px 25px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #B80402 1px;
     text-decoration: none;
     /* display: inline-block; */
-    font-size: 16px;
-    transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 2em;
+    text-align: center;
 }
 
-.lbutton {
-    background-color: #DD0127;
-    color: black;
-}
-
-.lbutton:hover {
-    background-color: #DD0127;
-    color: #FEFEFE;
-    box-shadow: 2px 1px 2px 1px #FEFEFE;
+.logout_button:hover {
+    border: solid #030204 1px;
+    background: #B80402;
+    background-image: -webkit-linear-gradient(top, #B80402, #260100);
+    background-image: -moz-linear-gradient(top, #B80402, #260100);
+    background-image: -ms-linear-gradient(top, #B80402, #260100);
+    background-image: -o-linear-gradient(top, #B80402, #260100);
+    background-image: -webkit-gradient(to bottom, #B80402, #260100);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 .side_container {
-    background-image: url(resources/bg_side.jpg);
-    width: 50%;
-    height: 50%;
-    opacity: 1;
-}
-
-#button_all_books {
-    position: absolute;
-    left: 10px;
-}
-
-#button_add_books {
-    position: absolute;
-    left: 10px;
-    bottom: 500px;
-}
-
-#button_avail_books {
-    position: absolute;
-    left: 10px;
-    bottom: 400px;
-}
-
-#button_borrower_history {
-    position: absolute;
-    left: 10px;
-    bottom: 300px;
+    width: 60%;
+    opacity: .9;
 }
 
 .ibutton {
-    width: 200px;
-    border: none;
-    color: #DD0127;
-    padding: 16px 32px;
-    text-align: center;
+    display: block;
+    width: 30%;
+    background: #B80402;
+    background-image: -webkit-linear-gradient(top, #B80402, #5D0200);
+    background-image: -moz-linear-gradient(top, #B80402, #5D0200);
+    background-image: -ms-linear-gradient(top, #B80402, #5D0200);
+    background-image: -o-linear-gradient(top, #B80402, #5D0200);
+    background-image: -webkit-gradient(to bottom, #B80402, #5D0200);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: medium;
+    padding: 15px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FF0300 1px;
     text-decoration: none;
-    /* display: inline-block; */
-    font-size: 16px;
-    transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 2em;
+    text-align: center;
 }
 
-.btn {
-    background-color: #DD0127;
-    color: black;
-}
-
-.btn:hover {
-    background-color: #DD0127;
-    color: #FEFEFE;
-    box-shadow: 2px 1px 2px 1px #FEFEFE;
+.ibutton:hover {
+    border: solid #030204 1px;
+    background: #B80402;
+    background-image: -webkit-linear-gradient(top, #B80402, #260100);
+    background-image: -moz-linear-gradient(top, #B80402, #260100);
+    background-image: -ms-linear-gradient(top, #B80402, #260100);
+    background-image: -o-linear-gradient(top, #B80402, #260100);
+    background-image: -webkit-gradient(to bottom, #B80402, #260100);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 .title {
@@ -127,26 +139,28 @@ body {
     border-radius: 1em;
     width: 20%;
     top: 60px;
-    right: 100px;
+    right: 200px;
     position: absolute;
-    right: 50px;
     padding-bottom: 0.5px;
-    background-color: #DD0127;
+    background-color: #260100;
+    border: #D11016;
+    opacity: 0.9;
 }
+
+
+/* white background*/
 
 .display {
     border: none;
     background-color: #FEFEFE;
-    float: bottom;
-    float: right;
-    width: 84%;
-    height: 600px;
+    width: 78%;
+    height: 80%;
     position: absolute;
+    border-radius: 10px 10px 0 0;
     top: 20%;
-    bottom: 40%;
-    border-radius: 1em;
     right: 1%;
-    opacity: 0.8;
+    bottom: 10%;
+    opacity: 0.9;
 }
 
 .time {
@@ -154,7 +168,7 @@ body {
     float: center;
     position: absolute;
     left: 65%;
-    top: 4%;
+    top: 1%;
 }
 
 .time_format {
