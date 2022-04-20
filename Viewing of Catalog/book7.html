@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+body {
+  background-image: url('bg.jpg');
+  width:100%;
+  height:100%; 
+}
+
+div.transbox {
+  margin: 25px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 80%;
+  height: 690px;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+}
+
+
+div.transbox h1 {
+ font-family:verdana;
+ margin: 2%;
+ 
+}
+
+/*previous button*/
+.prevbtn {
+  background-color: #f44336;
+  border:none;
+  border-radius:100px;
+  margin-top: -15px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+  padding:15px 30px;
+}
+
+.prevbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prevbtn span:after {
+  content: '\276E';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -5px;
+  transition: 0.5s;
+}
+
+.prevbtn:hover span {
+  padding-left: 18px;
+}
+
+.prevbtn:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+img {
+  width: 225px;
+  height: 225px;
+  margin-left: 25px;
+
+}
+
+
+
+</style>
+<body>
+<
+  <div class="transbox">
+  <h1>The Lord of The Rings</h1>
+  <img src="b7.jpg" alt="" />
+  
+ 
+
+    <p> At 33, the age of adulthood among hobbits, Frodo Baggins receives a magic Ring of Invisibility 
+    from his uncle Bilbo. Frodo, a Christlike figure, learns that the ring has the power to control the 
+    entire world and, he discovers, to corrupt its owner.<br></br> A fellowship of hobbits, elves, dwarfs, and men
+     is formed to destroy the ring by casting it into the volcanic fires of the Crack of Doom, where it was 
+     forged. They are opposed on their harrowing mission by the evil Sauron and his Black Riders.
+	<br></br>
+	<br></br>
+   </p>
+    
+  <a href="Book Info.html"><button class="prevbtn"><span onClick={this.prev}> back</span></button></a> 
+  </div>
+
+</body>
+</html>

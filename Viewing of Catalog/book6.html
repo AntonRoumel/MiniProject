@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+body {
+  background-image: url('bg.jpg');
+  width:100%;
+  height:100%; 
+}
+
+div.transbox {
+  margin: 25px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 80%;
+  height: 690px;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+}
+
+
+div.transbox h1 {
+ font-family:verdana;
+ margin: 2%;
+ 
+}
+
+/*previous button*/
+.prevbtn {
+  background-color: #f44336;
+  border:none;
+  border-radius:100px;
+  margin-top: -15px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+  padding:15px 30px;
+}
+
+.prevbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prevbtn span:after {
+  content: '\276E';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -5px;
+  transition: 0.5s;
+}
+
+.prevbtn:hover span {
+  padding-left: 18px;
+}
+
+.prevbtn:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+img {
+  width: 225px;
+  height: 225px;
+  margin-left: 25px;
+
+}
+
+
+
+</style>
+<body>
+<
+  <div class="transbox">
+  <h1>The Life of Pi</h1>
+  <img src="b6.jpg" alt="" />
+  
+ 
+
+    <p> In an Author’s Note, an anonymous author figure explains that he traveled from his home in Canada
+     to India because he was feeling restless. There, while sipping coffee in a café in the town of 
+     Pondicherry, he met an elderly man named Francis Adirubasamy who offered to tell him a story fantastic
+      enough to give him faith in God.<br></br> This story is that of Pi Patel. The author then shifts into the story 
+      itself, but not before telling his reader that the account will come across more naturally if he tells 
+      it in Pi’s own voice.
+	<br></br>
+	<br></br>
+   </p>
+    
+  <a href="Book Info.html"><button class="prevbtn"><span onClick={this.prev}> back</span></button></a> 
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+body {
+  background-image: url('bg.jpg');
+  width:100%;
+  height:100%; 
+}
+
+div.transbox {
+  margin: 25px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 80%;
+  height: 690px;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+}
+
+
+div.transbox h1 {
+ font-family:verdana;
+ margin: 2%;
+ 
+}
+
+/*previous button*/
+.prevbtn {
+  background-color: #f44336;
+  border:none;
+  border-radius:100px;
+  margin-top: -15px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+  padding:15px 30px;
+}
+
+.prevbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prevbtn span:after {
+  content: '\276E';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -5px;
+  transition: 0.5s;
+}
+
+.prevbtn:hover span {
+  padding-left: 18px;
+}
+
+.prevbtn:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+img {
+  width: 225px;
+  height: 225px;
+  margin-left: 25px;
+
+}
+
+
+
+</style>
+<body>
+<
+  <div class="transbox">
+  <h1>A Short History of Everything</h1>
+  <img src="b2.jpg" alt="" />
+  
+ 
+
+    <p> What’s the most fascinating thing about our world to you? Is it space, other planets, galaxies far far away? The depth
+   of the ocean and the mysterious, alien-like creatures that live down there? The genetic makeup of all of the species 
+   around us? I’m baffled by all of those things, but I find that even people who don’t show a particular interest in 
+   science and history have one or two things they’re absolutely smitten by – and it’s not surprising. There’s so much 
+   incredible stuff going on around us, it’s hard to not be star struck, if you think about it.<br></br>
+
+	A Short History Of Nearly Everything tries to explain (almost) all of it. At least as much as we know. 
+	Bill Bryson has done a tremendous job at it.
+   </p>
+    
+  <a href="Book Info.html"><button class="prevbtn"><span onClick={this.prev}> back</span></button></a> 
+  </div>
+
+</body>
+</html>
