@@ -1,0 +1,383 @@
+body
+{
+    background-image: url('./Pile-of-Library-Books-620x400.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
+    border-collapse: collapse;
+    margin: 0% 0% 0% 0%;
+}
+form
+{
+    border-collapse: collapse;
+    height: 100vh;
+    width: 30%;
+    background-image: url("./bck.png");
+    background-size: cover;
+    opacity: 90%;
+}
+form.form2
+{
+    border-collapse: collapse;
+    height: 100vh;
+    width: 30%;
+    background-color: powderblue;
+    background-size: cover;
+    opacity: 90%;
+}
+form.form3
+{
+    border-collapse: collapse;
+    height: 100vh;
+    width: 50%;
+    background-color: powderblue;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.for1
+{
+    color: white;
+    background-color: #074b75;
+    position: relative;
+    top: 250px;
+    height: 100px;
+    display:block;
+    width: 30%;
+    border-radius: 5px;
+    border-spacing: 20px;
+    text-size-adjust: 10px;
+}
+.for1:hover{
+
+    background: linear-gradient(-135deg, #4b99cd, #4953dd);  
+}
+.for2
+{
+    color: white;
+    background-color:#074b75;
+    border-style: solid;
+    position: relative;
+    top: 300px;
+    height: 100px;
+    display:block;
+    width: 30%;
+    border-radius: 5px;
+    border-spacing: 20px;
+}
+.for2:hover{
+
+    background: linear-gradient(-135deg, #4b99cd, #4953dd);  
+}
+
+.borrow1
+{
+    position: relative;
+    top:130px;
+}
+.borrow
+{
+    text-align: center;
+display:block;
+width: 45%;
+height: 40px;
+position: relative;
+top:130px;
+border-radius: 20px ;
+}
+.return
+{
+
+display:block;
+width: 15%;
+position: relative;
+left: 25px;
+top: 10px;
+}
+.return1
+{
+    text-align: center;
+    display:block;
+    width: 25%;
+    height: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    border-radius: 10px;
+    }
+.return2
+{
+    position: relative;
+    left: 33%;
+    top: 65px;
+}
+.return3
+{
+    text-align: center;
+    display:block;
+    width: 25%;
+    height: 30px;
+    position: relative;
+    left: 270px;
+    top: 64px;
+    border-radius: 10px;
+}
+.return4
+{
+    position: relative;
+    left: 35.7%;
+    top: 36px;
+}
+.return5
+{
+    text-align: center;
+    display:block;
+    width: 25%;
+    height: 30px;
+    position: relative;
+    left: 270px;
+    top: 35px;
+    border-radius: 10px;
+}
+.return6
+{
+    position: relative;
+    left: 25px;
+    top: -20px;
+}
+.return7
+{
+    text-align: center;
+    display:block;
+    width: 25%;
+    height: 30px;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    border-radius: 10px;
+}
+
+.rb /*For Borrow */
+{
+    color: white;
+    background-color:#074b75;
+    border-style: solid;
+    position: absolute;
+    left: 115px;
+    height:60px;
+    width: 15%;
+    bottom: 110px;
+    border-radius: 15px;  
+}
+.rb:hover{
+
+    background: linear-gradient(-135deg, #4b99cd, #4953dd);  
+}
+
+.rbg /*For Return */
+{
+    color: white;
+    background-color:#074b75;
+    border-style: solid;
+    position: relative;
+    left: 145px;
+    height:50px;
+    width: 210px;
+    top: 5px;
+    border-radius: 10px;  
+}
+.rbg:hover{
+
+    background: linear-gradient(-135deg, #4b99cd, #4953dd);  
+}
+.rbg1 /*search */
+{
+    color: white;
+    background-color:#074b75;
+    border-style: solid;
+    position: relative;
+    left: 280px;
+    height:37px;
+    width: 90px;
+    top: -19%;
+    border-radius: 10px;  
+}
+.rbg1:hover{
+
+    background: linear-gradient(-135deg, #4b99cd, #4953dd);  
+}
+
+
+#back /*Back */
+{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+h1
+{
+
+    position: relative;
+    left: 10px;
+    top: 1px;
+}
+
+
+
+.tab /*For Table */
+{
+    position: relative;
+    left: 5%;
+    top: -10px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 690px;
+}
+ .tab thead tr
+{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.tab th, .tab td
+{
+    padding: 12px 15px;
+}
+.tab tbody tr
+{
+    border-bottom: 2px solid gray;
+}
+.tab tbody tr:nth-of-type(even)
+{
+        background-color: rgba(211, 211, 211, 0.922);
+} 
+
+
+/* Borrow Section 
+h3
+{
+    position: relative;
+    left: 500px;
+}
+form.form1
+{
+    position: relative;
+    top:-20px;
+    border-style: solid;
+margin-left: 30%;
+margin-right: 30%;
+border-radius: 40px;   
+}
+.title1
+{
+    position: relative;
+    left: 30px;
+}
+.title2
+{
+    position: relative;
+    left: 60px;
+}
+.title3
+{
+    position: relative;
+    left: 60px;
+    width: 120px;
+}
+
+.title4
+{
+    position: relative;
+    left: 100px;
+    width: 120px;
+}
+.title5
+{
+    position: relative;
+    left: 120px;
+    height:50px;
+    width: 90px;
+    bottom: 30px;
+    border-radius: 10px;
+}
+ Return Section 
+.new
+{
+    border-collapse: collapse;
+    position: relative;
+    left: 300px;
+}
+form.form2
+{
+    position: relative;
+    height: 350px;
+    top:-20px;
+    border-style: solid;
+    border-color:black;
+    border-style:thin;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;   
+}
+.Return1
+{
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+.Return
+{
+display:block;
+width: 15%;
+position: relative;
+left: 20px;
+}
+.rb
+{
+    position: relative;
+    left: 50%;
+    height:50px;
+    width: 90px;
+    bottom: 30px;
+    border-radius: 10px;  
+}
+form.history
+{
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.tab
+{
+    position: relative;
+    left: 30%;
+    bottom: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+.tab thead tr
+{
+    background-color: rgb(179, 245, 224);
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+.tab th, .tab td
+{
+    padding: 12px 15px;
+}
+.tab tbody tr
+{
+    border-bottom: 2px solid gray;
+}
+.tab tbody tr:nth-of-type(even)
+{
+        background-color: rgba(211, 211, 211, 0.922);
+} */

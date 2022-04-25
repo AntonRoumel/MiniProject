@@ -1,0 +1,221 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body, html {
+	color: #373C40;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+	
+ 
+
+    
+}
+
+body {
+	font-size: 70%;
+    width: 40%;
+    height: 80%;
+
+    background-image: url('../Borrow-Return Form/Pile-of-Library-Books-620x400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+	padding: 7px 0 7px 0;
+	font-weight: 500;
+	font-size: 10pt;
+    
+}
+
+h1 {
+	font-weight: 200;
+	color: black;
+	font-size: 17pt;
+	text-align: center;
+}
+
+form.register {
+
+	background-image: url("./bck.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 20px;
+	border-radius: 20px;
+	border-radius: 20px;
+    display: block;
+
+
+    
+}
+
+.form-group {
+	font-size: 10pt;
+	margin: 0;
+	color: black;
+	padding: 7px 0 7px 0;
+	font-weight: 500;
+	font-size: 10pt;
+}
+
+/* text color */
+form.register legend {
+    color: red;
+    padding:2px;
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+/* boxes */
+form.register input 
+{
+	border: 1px solid #E1E1E1;
+}
+
+form.register input[type=radio] {
+	margin-left: 7px;
+}
+
+form.register select {
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+
+form.register select.date {
+    width: 40px;
+}
+
+input:focus, select:focus {
+    background-color: #efffe0;
+}
+
+div.agreement{
+    margin-left:15px;
+}
+div.agreement label{
+    text-align:left;
+    margin-top:3px;
+}
+
+#registerButton {
+    background: #DD0127;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    float:left;
+    font-size:18px;
+    margin:10px;
+}
+
+#updatedProfile {
+	display: none;
+	margin: 20px auto 0px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	border-radius: 20px;
+    background-image: url(./MicrosoftTeams-image3.png);
+}
+
+#updatedProfile h2 {
+	color: #abda0f;
+    padding:2px;
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+
+#updatedProfile h3 {
+	color: #abda0f;
+    padding:2px;
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 12px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+.box
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+ .box1
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box2
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box3
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box4
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box5
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box6
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box7
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box8
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.box9
+{
+    display: block;
+    width: 200px;
+    height: 20px;
+} 
